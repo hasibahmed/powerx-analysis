@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "powerx-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Hasib Ahmed <hasib@hasib-ahmed.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+numpy = "^2.0.0"
+matplotlib = "^3.9.1"
+plotly = "^5.22.0"
+seaborn = "^0.13.2"
+nbformat = "^5.10.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.26.0"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
